@@ -86,8 +86,16 @@ li {
     margin-left: 4px;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 .mt-12 {
     margin-top: 12px;
+}
+
+.mt-25 {
+    margin-top: 25px;
 }
 
 .mt-50 {

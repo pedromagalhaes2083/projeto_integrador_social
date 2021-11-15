@@ -29,6 +29,10 @@ h3 {
     color: white;
 }
 
+.text-color-black {
+    color: black;
+}
+
 .text-bold {
     font-weight: bold;
 }
