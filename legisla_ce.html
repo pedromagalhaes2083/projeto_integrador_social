@@ -13,6 +13,8 @@
     <link href="css/textos.css" rel="stylesheet">
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contraste.class.js"></script>
 
     <title> Página Inicial </title>
 </head>
@@ -51,15 +53,14 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Cartilha</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Acessibilidade
-                    </a>
-                        <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Contraste</a></li>
-                            <li><a class="dropdown-item" href="#">Aumentar Fonte</a></li>
-                            <li><a class="dropdown-item" href="#">Diminuir Fonte</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" name="increase-font" id="increase-font" title="Aumentar fonte" href="#">Aumentar Fonte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" name="decrease-font" id="decrease-font" title="Diminuir fonte" href="#">Diminuir Fonte</a>
+                    </li>
+                    <li class="nav-item">
+                        <li><a class="nav-link active" href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste</a></li>
                     </li>
                 </ul>
             </div>

@@ -13,6 +13,9 @@
     <link href="css/textos.css" rel="stylesheet">
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contraste.class.js"></script>
+
 
     <title> Página Inicial </title>
 </head>
@@ -51,15 +54,14 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Cartilha</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Acessibilidade
-                    </a>
-                        <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Contraste</a></li>
-                            <li><a class="dropdown-item" href="#">Aumentar Fonte</a></li>
-                            <li><a class="dropdown-item" href="#">Diminuir Fonte</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" name="increase-font" id="increase-font" title="Aumentar fonte" href="#">Aumentar Fonte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" name="decrease-font" id="decrease-font" title="Diminuir fonte" href="#">Diminuir Fonte</a>
+                    </li>
+                    <li class="nav-item">
+                        <li><a class="nav-link active" href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste</a></li>
                     </li>
                 </ul>
             </div>
@@ -73,33 +75,23 @@
         <section style="background-color: rgb(32, 28, 223);" class="d-flex h-700" ;>
             <div class="m-auto">
                 <h1 class="text-color-write wb-normal wf-1000 margin-left-30 text-destaque mt-12">
-                    Medidas do Estado do Ceará para auxiliar pessoas com deficiência.
+                    Medidas do Estado Brasileiro para auxiliar pessoas com deficiência.
                 </h1>
                 <h3 class="text-color-yellow margin-left-30 mt-50 wf-600 wb-normal text-bold">Com base em dados do IBGE o Brasil tem cerca de 6,5 milhões de pessoas com deficiência visual.</h3>
             </div>
 
         </section>
-        <section style="background-color: rgb(255, 255, 255);" class="d-flex h-700" ;>
-            <div class="m-auto justify-content-md-center wf-1000">
-                <h5 class=" wb-normal">
-                    Segundo o IBGE, no Brasil tem cerca de 6,5 milhões de pessoas com deficiência visual, seja baixa visão ou cegueira. As políticas públicas tem um papel crucial na sociedade, elas devem vir de uma participação de sociedade e governo, para que se tenha uma
-                    boa eficácia no bem estar social dos deficientes. O secretário dos Direitos da Pessoa com Deficiência Moisés Bauer fala que uma das maiores barreiras no mercado de trabalho é a comunicação, as trocas de informação, porque não se tem
-                    muitas pessoas que ajudem esses deficientes na escrita, nos sistemas digitais e na maioria das vezes acontece uma inclusão adjunta da exclusão. Letícia se inscreveu para o Enem 2020 e relatou que era cega, e mandou seus exames comprovando
-                    e pedindo uma sala especial para cegos, entretanto ela não foi atendida, tendo que fazer o exame na sala normal. Mas, em 2015 o Estatuto da Pessoa com Deficiência fez com que fosse assegurado por lei oferecimentos por iniciativas públicas
-                    e particulares, mas na prática isso não é sempre aplicado.
-
-                </h5>
+        <section style="background-color: rgb(228, 228, 236);" class="d-flex h-700" ;>
+            <div class="m-auto">
+                <h6>
+                    texto base.
+                </h6>
             </div>
-        </section>
+        </section>3
         <section style="background-color:rgb(32, 28, 223);" class="d-flex h-100">
             <h6 class="text-color-write">
-                <a class="pj-link">Fonte: https://www.jcam.com.br/noticias/politicas-publicas-para-deficientes-visuais/</a>
+                Fonte:
             </h6>
-            <h6 class="text-color-write">
-                <a class="pj-link">Fonte: https://www.justica.gov.br/news/secretario-dos-direitos-da-pessoa-com-deficiencia-fala-sobre-desafios-de-viver-sem-enxergar</a>
-            </h6>
-
-
         </section>
 </body>
 
