@@ -175,6 +175,10 @@ li {
     width: 150px;
 }
 
+.wf-300 {
+    width: 300px;
+}
+
 .wf-426 {
     width: 426px;
 }
@@ -191,49 +195,28 @@ li {
     width: 1000px;
 }
 
-
-/* ---- ESTRELAS - CLASSIFICAÇÃO ---- */
-
-.estrelas-class {
-    text-align: left;
-    font-family: 'awesome';
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
 }
 
-.estrelas-class input[type=radio] {
-    display: none;
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
 }
 
-.estrelas-class label i.fa {
-    font-size: 2.5em
-}
-
-.estrelas-class label i.fa:before {
-    content: '★';
-    color: rgb(230, 89, 46);
-}
-
-.estrelas-class input[type=radio]:checked~label i.fa:before {
-    color: #CCC;
-}
-
-.estrelas {
-    text-align: center;
-    font-family: 'awesome';
-}
-
-.estrelas input[type=radio] {
-    display: none;
-}
-
-.estrelas label i.fa {
-    font-size: 2.5em
-}
-
-.estrelas label i.fa:before {
-    content: '★';
-    color: #FC0;
-}
-
-.estrelas input[type=radio]:checked~label i.fa:before {
-    color: #CCC;
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
 }
