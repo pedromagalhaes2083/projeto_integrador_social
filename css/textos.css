@@ -7,50 +7,6 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.pj-link {
-    display: block;
-    padding: .5rem 1rem;
-    color: white;
-    text-decoration: none;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
-}
-
-.pj-link:focus,
-.pj-link:hover {
-    color: white;
-    text-decoration: underline white;
-}
-
-.text-color-yellow {
-    color: rgb(255, 208, 0);
-}
-
-.text-color-write {
-    color: white;
-}
-
-.text-color-black {
-    color: black;
-}
-
-.text-bold {
-    font-weight: bold;
-}
-
-.text-size-11rem {
-    font-size: 1.1rem;
-}
-
-.text-destaque {
-    color: white;
-    font-size: 60px;
-    font-weight: bold;
-}
-
-.wb-normal {
-    word-break: normal;
-}
-
 .contrast h1,
 .contrast h2,
 .contrast h3,
@@ -81,4 +37,56 @@ h3 {
     background: black !important;
     color: yellow !important;
     border: none !important;
+}
+
+.pj-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
+}
+
+.pj-link:focus,
+.pj-link:hover {
+    color: white;
+    text-decoration: underline white;
+}
+
+.margin-left-50 {
+    margin-left: 50px;
+}
+
+.margin-right-50 {
+    margin-right: 50px;
+}
+
+.text-color-yellow {
+    color: rgb(255, 208, 0);
+}
+
+.text-color-write {
+    color: white;
+}
+
+.text-color-black {
+    color: black;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-size-11rem {
+    font-size: 1.1rem;
+}
+
+.text-destaque {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.wb-normal {
+    word-break: normal;
 }
