@@ -3,20 +3,27 @@
     background-repeat: no-repeat;
 }
 
-.h-600 {
-    height: 600px;
-}
-
-.h-800 {
-    height: 800px;
-}
-
 .back-blue {
     background-color: rgb(32, 28, 223);
 }
 
 .back-white {
     background-attachment: white;
+}
+
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+    background: black !important;
+    color: white !important;
 }
 
 div.img {
@@ -42,6 +49,14 @@ div.img>div {
     color: #FFF;
 }
 
+.h-600 {
+    height: 600px;
+}
+
+.h-800 {
+    height: 800px;
+}
+
 #main-banner {
     padding: 0;
     overflow: hidden;
@@ -54,19 +69,4 @@ div.img>div {
     float: right;
     margin: 40px 60px;
     background: #555;
-}
-
-.contrast,
-.contrast nav,
-.contrast div,
-.contrast li,
-.contrast ol,
-.contrast header,
-.contrast footer,
-.contrast section,
-.contrast main,
-.contrast aside,
-.contrast article {
-    background: black !important;
-    color: white !important;
 }

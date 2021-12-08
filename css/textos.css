@@ -53,6 +53,11 @@ h3 {
     text-decoration: underline white;
 }
 
+.pp {
+    text-align: left;
+    font-size: large;
+}
+
 .margin-left-50 {
     margin-left: 50px;
 }
